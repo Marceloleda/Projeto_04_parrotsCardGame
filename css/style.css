@@ -26,6 +26,9 @@ header h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: transform .5s;
+    transform-style: preserve-3d;
 }
 ul{
     display: flex;
@@ -33,4 +36,8 @@ ul{
     flex-wrap: wrap;
     align-items: center;
     height: 500px;
+}
+.carta img{
+    height: 100px;
+    width: 100px;
 }
